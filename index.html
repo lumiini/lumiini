@@ -3,48 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>my site</title>
+    <title>Greetings</title>
     <style>
-        /* Basic styling for the body */
         body {
-            margin: 0; /* Remove default margin */
-            padding: 0; /* Remove default padding */
-            font-family: sans-serif; /* Use a common sans-serif font */
-            color: #333; /* Default text color */
-            display: flex; /* Use flexbox to center content */
-            justify-content: center; /* Center horizontally */
-            align-items: center; /* Center vertically */
-            min-height: 100vh; /* Minimum height of the viewport */
-            background-image: url('a.jpg'); /* Set the background image */
-            background-repeat: repeat; /* Tile the image */
-            background-size: auto; /* Maintain original size for tiling */
-            /* You might want to adjust background-size if the image is too large/small */
-            /* background-size: cover; /* Use cover if you want the image to cover the whole background without tiling */
-            /* background-size: contain; /* Use contain if you want the image to fit within the background */
+            background-color: black;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: sans-serif;
         }
 
-        /* Style for the container holding the message */
-        .message-container {
-            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for readability */
-            padding: 20px; /* Add some padding around the text */
-            border-radius: 10px; /* Rounded corners for the container */
-            text-align: center; /* Center the text inside the container */
-            max-width: 80%; /* Limit the width of the container */
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+        a {
+            color: white;
+            text-decoration: none;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            font-size: 2em;
+            margin-bottom: 10px;
         }
 
-        /* Style for the message text */
-        .message-container h1 {
-            margin: 0; /* Remove default margin from the heading */
-            font-size: 1.5em; /* Adjust font size */
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .instruction-text {
+            font-size: 0.8em;
+            color: white;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
         }
     </style>
 </head>
 <body>
-
-    <div class="message-container">
-        <h1>Hey, I'm Lumiini, I'm interested in linux (i guess) also why are you here?</h1>
+    <a href="https://lumiini.github.io">
+        Hej, Moi, Tere, Hello
+    </a>
+    <div class="instruction-text">
+        click on it
     </div>
-
 </body>
 </html>
