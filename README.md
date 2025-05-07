@@ -1,4 +1,4 @@
-## Hello? ♡⸜(˶˃ ᵕ ˂˶)⸝♡
+## Hello? (^_^;)
 
 <!--
 **lumiini/Lumiini** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
